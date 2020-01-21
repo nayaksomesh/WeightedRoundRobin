@@ -6,3 +6,4 @@
 */bin/
 */obj/
 */*.dll
+/WeightedRoundRobin.Api/Properties/PublishProfiles
