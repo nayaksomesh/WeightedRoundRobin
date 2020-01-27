@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GeoLocation.Provider\GeoLocation.Provider.csproj" />
     <ProjectReference Include="..\WeightedRoundRobin\WeightedRoundRobin.csproj" />
   </ItemGroup>
 

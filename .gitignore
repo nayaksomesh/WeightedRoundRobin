@@ -7,3 +7,5 @@
 */obj/
 */*.dll
 /WeightedRoundRobin.Api/Properties/PublishProfiles
+/AWSDeployConfig.txt
+/WeightedRoundRobin.Api/aws-beanstalk-tools-defaults.json
