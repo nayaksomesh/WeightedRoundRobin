@@ -35,6 +35,8 @@ namespace WeightedRoundRobin.Api.Middlewares
                     context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
 
                     await context.Response.WriteAsync($"Access from {geoLocation.country.name} [{geoLocation.country.code}] country not authorized.");
+
+                    return;
                 }
             }
             // Call the next delegate/middleware in the pipeline
